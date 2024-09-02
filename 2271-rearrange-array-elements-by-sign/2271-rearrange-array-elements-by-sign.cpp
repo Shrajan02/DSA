@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
+        // 2-pointer approach
         int i = 0, j = 1, n = nums.size(); 
         vector<int> result(n, 0);
         for (auto num: nums) {
