@@ -1,12 +1,10 @@
 class Solution {
 public:
     int numberOfSteps(int num) {
+        // Bit manipulation
         int count = 0;
         while (num) {
-            if (num % 2 == 0) 
-                num /= 2;
-            else
-                num--;
+            num = num & 1 ? num - 1 : num >> 1;  // right shift operator
             count++;
         }
         return count;
