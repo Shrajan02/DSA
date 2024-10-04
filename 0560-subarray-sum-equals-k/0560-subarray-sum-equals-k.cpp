@@ -9,13 +9,11 @@ public:
 
         for (int i = 0; i < n; i++) {
             preSum += nums[i]; 
-
+        
             // Check if (preSum - k) exists in hashmap
             int rem = preSum - k;
-            if (hash.find(rem) != hash.end()) {
-                count += hash[rem]; 
-            }
-
+            count += hash[rem]; 
+        
             hash[preSum]++; // Updating hashmap
         }
 
