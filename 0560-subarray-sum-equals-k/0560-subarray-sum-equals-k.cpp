@@ -3,7 +3,7 @@ public:
     int subarraySum(vector<int>& nums, int k) {
         int count = 0, preSum = 0;
         int n = nums.size();
-        map<int, int> hash; 
+        map<int, int> hash;  // <preSum, count>
 
         hash[0] = 1; // considering addition with singleton subarrays
 
