@@ -1,16 +1,14 @@
 class Solution {
 public:
     int findClosestNumber(vector<int>& nums) {
-        int mini = INT_MAX;
-        int original = 0;
+        int res = INT_MAX;
         for (auto i : nums) {
-            int val = abs(i);
-            if (val < mini || (val == mini && i > original)) {
-                mini = val;
-                original = i;
+            if (abs(i) < abs(res)) {
+                res = i;
+            } else if (abs(i) == abs(res)) {
+                res = max(res, i);
             }
         }
-
-        return original;
+        return res;
     }
 };
