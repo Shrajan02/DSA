@@ -1,6 +1,7 @@
 class Solution {
 public:
     int calculateBouquets(vector<int>& bloomDay, int day, int m, int k) {
+        // Adjacency is taken care by 'streak'
         long long streak = 0, bq = 0;
         for (int i = 0; i < bloomDay.size(); i++) {
             if (bloomDay[i] <= day) {
@@ -33,7 +34,7 @@ public:
             }
         }
 
-        // Binary search
+        // Binary search approach
         int low = minDay, high = maxDay;
         while (low <= high) {
             int mid = low + (high - low) / 2;
