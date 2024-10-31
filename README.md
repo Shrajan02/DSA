@@ -7,10 +7,12 @@ A collection of LeetCode questions to ace the coding interview!
 | [0009-palindrome-number](https://github.com/Shrajan02/DSA/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Shrajan02/DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 ## Array
 |  |
@@ -89,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Shrajan02/DSA/tree/master/0053-maximum-subarray) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
