@@ -4,16 +4,14 @@ public:
         if (s.length() < 3) {
             return s;
         }
-
         string ans = "";
         ans += s[0];
-        char letter = s[0];
         int count = 1;
-        
+
+        // back() -> returns a reference to the last element pf string
         for (int i = 1; i < s.length(); i++) {
-            if (letter != s[i]) {
+            if (s[i] != ans.back()) {
                 count = 1;
-                letter = s[i];
                 ans += s[i];
             }
             else {
