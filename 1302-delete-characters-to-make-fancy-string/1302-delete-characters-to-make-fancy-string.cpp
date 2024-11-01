@@ -1,12 +1,16 @@
 class Solution {
 public:
     string makeFancyString(string s) {
-        int n = s.length(), count = 1;
+        if (s.length() < 3) {
+            return s;
+        }
+
         string ans = "";
         ans += s[0];
         char letter = s[0];
-
-        for (int i = 1; i < n; i++) {
+        int count = 1;
+        
+        for (int i = 1; i < s.length(); i++) {
             if (letter != s[i]) {
                 count = 1;
                 letter = s[i];
