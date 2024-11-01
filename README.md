@@ -95,4 +95,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
+## String
+|  |
+| ------- |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/Shrajan02/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 <!---LeetCode Topics End-->
