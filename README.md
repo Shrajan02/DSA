@@ -113,4 +113,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
+## Database
+|  |
+| ------- |
+| [0620-not-boring-movies](https://github.com/Shrajan02/DSA/tree/master/0620-not-boring-movies) |
 <!---LeetCode Topics End-->
