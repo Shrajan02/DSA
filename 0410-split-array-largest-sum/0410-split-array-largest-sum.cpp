@@ -1,3 +1,5 @@
+// Book Allocation Problem 
+
 class Solution {
 public:
     bool minSplit(vector<int> nums, int maxAllowedSum, int maxSplits) {
@@ -23,7 +25,7 @@ public:
         int sum = accumulate(nums.begin(), nums.end(), 0);
         int maxi = *max_element(nums.begin(), nums.end());
 
-        // Binary Search Approach
+        // Binary Search Approach: O(n * log(sum - maxi))
         int low = maxi, high = sum, maxSum = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
