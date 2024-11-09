@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Shrajan02/DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Shrajan02/DSA/tree/master/0410-split-array-largest-sum) |
+| [0485-max-consecutive-ones](https://github.com/Shrajan02/DSA/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Shrajan02/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Shrajan02/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0907-koko-eating-bananas](https://github.com/Shrajan02/DSA/tree/master/0907-koko-eating-bananas) |
