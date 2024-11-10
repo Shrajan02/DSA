@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0620-not-boring-movies](https://github.com/Shrajan02/DSA/tree/master/0620-not-boring-movies) |
+| [1338-queries-quality-and-percentage](https://github.com/Shrajan02/DSA/tree/master/1338-queries-quality-and-percentage) |
 | [1827-invalid-tweets](https://github.com/Shrajan02/DSA/tree/master/1827-invalid-tweets) |
 ## Greedy
 |  |
