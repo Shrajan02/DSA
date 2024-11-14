@@ -1,20 +1,20 @@
-// TC: O (m * log(n))
+// TC: O(m + n)
+// SC: O(1)
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int m = matrix.size(), n = matrix[0].size();
+        int m = matrix.size();
+        int n = matrix[0].size();
+        int row = 0, col = n-1;
 
-        for (int i = 0; i < m; i++) {
-            int low = 0, high = n - 1;
-            while (low <= high) {
-                int mid = low + ((high - low) >> 1);
-                if (matrix[i][mid] < target)
-                    low = mid + 1;
-                else if (matrix[i][mid] > target) 
-                    high = mid - 1;
-                else 
-                    return true;
-            }
+        while (row < m && col >= 0) {
+            int curr = matrix[row][col];
+            if (curr < target)
+                row++;
+            else if (curr > target)
+                col--;
+            else 
+                return true;
         }
         return false;
     }
