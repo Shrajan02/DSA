@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0907-koko-eating-bananas](https://github.com/Shrajan02/DSA/tree/master/0907-koko-eating-bananas) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Shrajan02/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Shrajan02/DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Shrajan02/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2350-find-closest-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/2350-find-closest-number-to-zero) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sliding Window
 |  |
 | ------- |
+| [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
 |  |
