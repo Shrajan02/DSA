@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Shrajan02/DSA/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Shrajan02/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0812-rotate-string](https://github.com/Shrajan02/DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Shrajan02/DSA/tree/master/1078-remove-outermost-parentheses) |
@@ -166,4 +167,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Shrajan02/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
