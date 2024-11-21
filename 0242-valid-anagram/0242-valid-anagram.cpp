@@ -6,20 +6,19 @@ public:
         if (s.length() != t.length())
             return false;
 
-        unordered_map<char, int> hashMapS, hashMapT;
-        for (int i = 0; i < s.length(); i++) {
-            hashMapS[s[i]]++;
-        }
-        for (int i = 0; i < t.length(); i++) {
-            hashMapT[t[i]]++;
+        unordered_map<char, int> hashMap;
+        int i = 0, n = s.length();
+        while (i < n) {
+            hashMap[s[i]]++;
+            hashMap[t[i]]--;
+            i++;
         }
 
-        int i = 0, n = t.length();
-        while (i < n) {
-            if (hashMapS[t[i]] != hashMapT[t[i]]) {
+        // Check if all counts are zero
+        for (auto count : hashMap) {
+            if (count.second != 0) {
                 return false;
             }
-            i++;
         }
         return true;
     }
