@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Shrajan02/DSA/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/Shrajan02/DSA/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Shrajan02/DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Shrajan02/DSA/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/Shrajan02/DSA/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/Shrajan02/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Shrajan02/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0205-isomorphic-strings](https://github.com/Shrajan02/DSA/tree/master/0205-isomorphic-strings) |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Shrajan02/DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Shrajan02/DSA/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Shrajan02/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Shrajan02/DSA/tree/master/0205-isomorphic-strings) |
