@@ -3,16 +3,16 @@
 class Solution {
 public:
     string addSpaces(string s, vector<int>& spaces) {
-        string res = "";
+        stringstream res;
         int pointer = 0;
         for (int i = 0; i < s.length(); i++) { 
             // Add spaces before character
             if (pointer < spaces.size() && i == spaces[pointer]) {
-                res += " ";
+                res << ' ';
                 pointer++;
             }
-            res += s[i];
+            res << s[i];
         }
-        return res;
+        return res.str();
     }
 };
