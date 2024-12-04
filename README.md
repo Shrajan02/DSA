@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Shrajan02/DSA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Shrajan02/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Shrajan02/DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Simulation
 |  |
 | ------- |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2580-circular-sentence](https://github.com/Shrajan02/DSA/tree/master/2580-circular-sentence) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Shrajan02/DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Shrajan02/DSA/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3451-string-compression-iii](https://github.com/Shrajan02/DSA/tree/master/3451-string-compression-iii) |
 ## String Matching
