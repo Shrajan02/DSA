@@ -1,7 +1,7 @@
 class Solution {
 public:
     string intToRoman(int num) {
-        vector<pair<int, string>> intMap = {
+        map<int, string, greater<int>> intMap = {
             {1000, "M"},
             {900, "CM"},
             {500, "D"},
@@ -18,10 +18,10 @@ public:
         };
 
         string res = "";  
-        for (auto &map : intMap) {  
-            while (num >= map.first) {  
-                res += map.second;     
-                num -= map.first;     
+        for (auto& map: intMap) {
+            while (num >= map.first) {
+                res += map.second;   
+                num -= map.first;    
             }
         }
         return res;
