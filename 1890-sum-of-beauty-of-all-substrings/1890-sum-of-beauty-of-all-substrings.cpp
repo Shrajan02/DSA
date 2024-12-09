@@ -7,10 +7,10 @@ public:
             int freq[26] = {0}; 
             int maxi = 0;      
 
-            // Sliding window 
+            // Sliding window with'j'
             for (int j = i; j < n; j++) {
-                freq[s[j] - 'a']++;  // Update the frequency of the current character
-                maxi = max(maxi, freq[s[j] - 'a']); // Update the max frequency
+                freq[s[j] - 'a']++;  // Update the frequency of current character
+                maxi = max(maxi, freq[s[j] - 'a']); 
 
                 // Find the minimum frequency greater than 0
                 int mini = INT_MAX;
