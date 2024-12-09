@@ -1,21 +1,28 @@
 class Solution {
 public:
     int beautySum(string s) {
-        int n = s.length(), longest = 0;
+        int n = s.length(), total = 0;
+
         for (int i = 0; i < n; i++) {
-            int freq[26] = {0};
+            int freq[26] = {0}; 
+            int maxi = 0;      
+
+            // Sliding window 
             for (int j = i; j < n; j++) {
-                freq[s[j] - 'a']++;
-                int maxi = INT_MIN, mini = INT_MAX;
-                for (int k = 0; k < 26; k++) {
-                    if (freq[k] > 0) {
-                        mini = min(mini, freq[k]);
-                        maxi = max(maxi, freq[k]);
+                freq[s[j] - 'a']++;  // Update the frequency of the current character
+                maxi = max(maxi, freq[s[j] - 'a']); // Update the max frequency
+
+                // Find the minimum frequency greater than 0
+                int mini = INT_MAX;
+                for (auto &k: freq) {
+                    if (k > 0) {
+                        mini = min(mini, k);
                     }
                 }
-                longest += (maxi - mini);
+                total += (maxi - mini);
             }
         }
-        return longest;
+
+        return total;
     }
 };
