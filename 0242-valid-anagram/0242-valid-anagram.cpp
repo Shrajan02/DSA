@@ -1,5 +1,3 @@
-// TC: O(n) ; n -> length of string 't'
-// SC: O(n)
 class Solution {
 public:
     bool isAnagram(string s, string t) {
