@@ -13,9 +13,8 @@ public:
             return false;
 
         // Floyd's Cycle Detection Algo (Tortoise-Hare Algo)
-        ListNode* slow = head;
-        ListNode* fast = head;
-        while (fast && fast->next) {
+        ListNode* slow = head, *fast = head;
+        while (fast != NULL && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
             if (slow == fast) 
