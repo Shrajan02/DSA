@@ -2,16 +2,14 @@ class Solution {
 public:
     vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {
         int n = nums.size();
-        while (k > 0) {
-            int mini = INT_MAX, index = 0;
-            for (int i = n - 1; i >= 0; i--) {
-                if (mini >= nums[i]) {
-                    mini = nums[i];
-                    index = i;
+        while (k--) {
+            int minIndex = 0;
+            for (int i = 0; i < n; i++) {
+                if (nums[minIndex] > nums[i]) {
+                    minIndex = i;
                 }
             }
-            nums[index] *= multiplier;
-            k--;
+            nums[minIndex] *= multiplier;
         } 
         return nums;
     }
