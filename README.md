@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bucket Sort
 |  |
 | ------- |
