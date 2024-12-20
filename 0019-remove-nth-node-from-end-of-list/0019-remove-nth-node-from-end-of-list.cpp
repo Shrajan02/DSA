@@ -11,25 +11,27 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        // 2-pass solution
-        // 1. Find the length of LL
-        int count = 0;
-        ListNode* temp = head;
-        while (temp) {
-            temp = temp->next;
-            count++;
+        if (!head->next) 
+            return NULL;
+
+        ListNode* slow = head;
+        ListNode* fast = head;
+        for (int i = 0; i < n; i++) {
+            fast = fast->next;
         }
 
-        // 2. Traverse to the position from start -> previous node 
-        ListNode* dummy = new ListNode(0); 
-        dummy->next = head;
-        temp = dummy;
-        int k = (count - n);  // (5 - 2) = 3 traversals: dummy -> 1(head) -> 2 -> 3
-        while (k--) {
-            temp = temp->next;
-        }
-        temp->next = temp->next->next;
+        // if fast = null, remove head
+        if (!fast)
+            return head->next;
 
-        return dummy->next;
+        // slow -> head
+        // fast -> 'n' nodes ahead of head
+        while (fast->next) {
+            slow = slow->next;
+            fast= fast->next;
+        }
+        slow->next = slow->next->next;
+
+        return head;
     }
 };
