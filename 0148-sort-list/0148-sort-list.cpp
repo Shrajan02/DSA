@@ -19,14 +19,14 @@ public:
             temp = temp->next;
         }
 
-        std:sort(arr.begin(), arr.end());
+        std::sort(arr.begin(), arr.end());
 
         temp = head;
         for (int i = 0; i < arr.size(); i++) {
             temp->val = arr[i];
             temp = temp->next;
         }
-        
+
         return head;
     }
 };
