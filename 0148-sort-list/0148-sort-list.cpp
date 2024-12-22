@@ -9,24 +9,57 @@
  * };
  */
 class Solution {
+private:
+    ListNode* getMiddle(ListNode* head) {
+        ListNode* slow = head;  // first half
+        ListNode* fast = head;  // second half
+        while (fast->next && fast->next->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
+
+    ListNode* mergeLL(ListNode* l1, ListNode* l2) {
+        if (!l1) return l2;
+        if (!l2) return l1;
+
+        ListNode* dummy = new ListNode(0);
+        ListNode* tail = dummy;  // Tracks end of the merged list
+
+        while (l1 && l2) {
+            if (l1->val < l2->val) {
+                tail->next = l1;
+                l1 = l1->next;
+            }
+            else {
+                tail->next = l2;
+                l2 = l2->next;
+            }
+            tail = tail->next;
+        }
+        // Attach remaining nodes
+        tail->next = l1 ? l1 : l2; 
+
+        return dummy->next;
+    }
+
 public:
     ListNode* sortList(ListNode* head) {
-        vector<int> arr;
-        ListNode* temp = head;
+        // Merge Sort approach: O(n*logn)
+        if (!head || !head->next) return head; // Base case
 
-        while (temp) {
-            arr.push_back(temp->val);
-            temp = temp->next;
-        }
+        ListNode* mid = getMiddle(head);
+        ListNode* left = head;
+        ListNode* right = mid->next;
+        mid->next = nullptr;  // Breaks the list
+        
+        // Recursively split and sort both halves
+        left = sortList(left);
+        right = sortList(right);
 
-        std::sort(arr.begin(), arr.end());
-
-        temp = head;
-        for (int i = 0; i < arr.size(); i++) {
-            temp->val = arr[i];
-            temp = temp->next;
-        }
-
-        return head;
+        // Merge the sorted halves
+        ListNode* result = mergeLL(left, right);
+        return result;
     }
 };
