@@ -9,24 +9,25 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        // Hash Set approach
-        ListNode* listA = headA;
-        ListNode* listB = headB;
-        unordered_set<ListNode*> hashSet;
+        // 2-pointer approach
+        ListNode* tempA = headA;
+        ListNode* tempB = headB;
 
-        // Building set of visited nodes in 1st list
-        while (listA) {
-            hashSet.insert(listA);
-            listA = listA->next;
-        } 
-
-        // Comparing set with 2nd list
-        while (listB) {
-            if (hashSet.find(listB) != hashSet.end()) {
-                return listB;
+        while (tempA != tempB) {
+            if (!tempA) {
+                tempA = headB;
             }
-            listB = listB->next;
+            else {
+                tempA = tempA->next;
+            }
+
+            if (!tempB) {
+                tempB = headA;
+            }
+            else {
+                tempB = tempB->next;
+            }
         }
-        return NULL;
+        return tempA;
     }
 };
