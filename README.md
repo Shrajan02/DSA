@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Shrajan02/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Shrajan02/DSA/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/Shrajan02/DSA/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Shrajan02/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shrajan02/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Shrajan02/DSA/tree/master/0148-sort-list) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shrajan02/DSA/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Shrajan02/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/Shrajan02/DSA/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Shrajan02/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shrajan02/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Shrajan02/DSA/tree/master/0148-sort-list) |
