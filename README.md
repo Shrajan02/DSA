@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0061-rotate-list](https://github.com/Shrajan02/DSA/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Shrajan02/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shrajan02/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Shrajan02/DSA/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/Shrajan02/DSA/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Shrajan02/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shrajan02/DSA/tree/master/0160-intersection-of-two-linked-lists) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shrajan02/DSA/tree/master/0002-add-two-numbers) |
+| [0143-reorder-list](https://github.com/Shrajan02/DSA/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Shrajan02/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Shrajan02/DSA/tree/master/0234-palindrome-linked-list) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Stack
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/Shrajan02/DSA/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Shrajan02/DSA/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/Shrajan02/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Shrajan02/DSA/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -278,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0061-rotate-list](https://github.com/Shrajan02/DSA/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Shrajan02/DSA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shrajan02/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0143-reorder-list](https://github.com/Shrajan02/DSA/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/Shrajan02/DSA/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shrajan02/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Shrajan02/DSA/tree/master/0206-reverse-linked-list) |
