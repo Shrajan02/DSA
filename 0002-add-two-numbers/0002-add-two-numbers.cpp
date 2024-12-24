@@ -17,6 +17,7 @@ public:
         int carry = 0;
         while (l1 || l2 || carry) {
             int sum = carry;
+            // Add l1 or l2 if they exist
             if (l1) {
                 sum += l1->val;
                 l1 = l1->next;
@@ -26,7 +27,10 @@ public:
                 l2 = l2->next;
             }
 
+            // Create a new node with the current digit 
             current->next = new ListNode(sum % 10);
+            
+            // Update carry for next iteration
             current = current->next;
             carry = sum / 10;
         }
