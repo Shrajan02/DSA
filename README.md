@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0012-integer-to-roman](https://github.com/Shrajan02/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Shrajan02/DSA/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/Shrajan02/DSA/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/Shrajan02/DSA/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shrajan02/DSA/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/Shrajan02/DSA/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Shrajan02/DSA/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Shrajan02/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
