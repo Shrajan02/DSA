@@ -12,6 +12,7 @@ public:
             n = -n;
         }
 
+        // Fast Exponentiation: O(log(N))
         double half = myPow(x, n/2);
         if (n % 2 == 0) {
             return (half * half);
