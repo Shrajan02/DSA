@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
+| [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bit Manipulation
 |  |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0206-reverse-linked-list](https://github.com/Shrajan02/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Shrajan02/DSA/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 ## String
 |  |
 | ------- |
