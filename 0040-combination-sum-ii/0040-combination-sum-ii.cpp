@@ -1,22 +1,22 @@
 class Solution {
 private:
-    void generateSubsets(vector<vector<int>>& result, const vector<int>& candidates, vector<int> current, int target, int start) {
-        if (target < 0) {
-            return; 
-        }
+    void generateSubsets(vector<vector<int>>& result, const vector<int>& candidates, vector<int>& current, int target, int start) {
         if (target == 0) {
             result.push_back(current);
             return;
         }
 
         for (int i = start; i < candidates.size(); ++i) {
-            // skip duplicates
-            if (i > start && candidates[i] == candidates[i - 1]) {
+            // Skip duplicates
+            if (i > start && candidates[i] == candidates[i - 1]) 
                 continue;
-            }
+            // If current element exceeds target
+            if (candidates[i] > target) 
+                break;
+
             current.push_back(candidates[i]); // pick
-            generateSubsets(result, candidates, current, target - candidates[i], i + 1); 
-            current.pop_back(); // backtrack (skip)
+            generateSubsets(result, candidates, current, target - candidates[i], i + 1);
+            current.pop_back(); // Backtrack (skip)
         }
     }
 
