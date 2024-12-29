@@ -1,3 +1,5 @@
+// TC: O(2^n)
+// SC: O(n)
 class Solution {
 private:
     void generateSubsets(vector<vector<int>>& result, const vector<int>& candidates, vector<int>& current, int target, int start) {
@@ -6,11 +8,11 @@ private:
             return;
         }
 
-        for (int i = start; i < candidates.size(); ++i) {
-            // Skip duplicates
+        for (int i = start; i < candidates.size(); i++) {
+            // skip same indexed elements
             if (i > start && candidates[i] == candidates[i - 1]) 
                 continue;
-            // If current element exceeds target
+            // if current element exceeds target
             if (candidates[i] > target) 
                 break;
 
