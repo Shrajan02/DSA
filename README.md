@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Shrajan02/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Shrajan02/DSA/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2350-find-closest-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/2350-find-closest-number-to-zero) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shrajan02/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Shrajan02/DSA/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Shrajan02/DSA/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2580-circular-sentence](https://github.com/Shrajan02/DSA/tree/master/2580-circular-sentence) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Shrajan02/DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0812-rotate-string](https://github.com/Shrajan02/DSA/tree/master/0812-rotate-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Shrajan02/DSA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Shrajan02/DSA/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Sorting
 |  |
 | ------- |
