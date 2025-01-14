@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0090-subsets-ii](https://github.com/Shrajan02/DSA/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
 ## Array
 |  |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2350-find-closest-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/2350-find-closest-number-to-zero) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1502-construct-k-palindrome-strings](https://github.com/Shrajan02/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shrajan02/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Shrajan02/DSA/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Union Find
 |  |
