@@ -1,45 +1,40 @@
 // Design using 2 queues
+// push operation expensive 
 class MyStack {
 private:
+    int n;
     queue<int> q1;
     queue<int> q2;
 
 public:
-    MyStack() {}
-    
-    void push(int x) {
-        q1.push(x);
+    MyStack() {
+        n = 0;
     }
     
-    int pop() {
-        while (q1.size() > 1) {
+    void push(int x) {
+        q2.push(x);
+        n++;
+        while (!q1.empty()) {
             q2.push(q1.front());
             q1.pop();
         }
 
+        swap(q1, q2);
+    }
+    
+    int pop() {
         int poppedVal = q1.front();
         q1.pop();
-        std::swap(q1, q2);
-
+        n--;
         return poppedVal;
     }
     
     int top() {
-        while (q1.size() > 1) {
-            q2.push(q1.front());
-            q1.pop();
-        }
-
-        int topVal = q1.front();
-        q1.pop();
-        q2.push(topVal);
-        std::swap(q1, q2);
-
-        return topVal;
+        return q1.front();
     }
     
     bool empty() {
-        return q1.empty();
+        return (n == 0);
     }
 };
 
