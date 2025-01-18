@@ -1,40 +1,33 @@
-// Design using 2 queues
-// push operation expensive 
+// Design using 1 queue
 class MyStack {
 private:
-    int n;
-    queue<int> q1;
-    queue<int> q2;
+    queue<int> q;
 
 public:
-    MyStack() {
-        n = 0;
-    }
+    MyStack() {}
     
     void push(int x) {
-        q2.push(x);
-        n++;
-        while (!q1.empty()) {
-            q2.push(q1.front());
-            q1.pop();
-        }
+        q.push(x);
+        int n = q.size();
 
-        swap(q1, q2);
+        for (int i = 0; i < n-1; i++) {
+            q.push(q.front());
+            q.pop();
+        }
     }
     
     int pop() {
-        int poppedVal = q1.front();
-        q1.pop();
-        n--;
-        return poppedVal;
+        int top = q.front();
+        q.pop();
+        return top;
     }
     
     int top() {
-        return q1.front();
+        return q.front();
     }
     
     bool empty() {
-        return (n == 0);
+        return q.empty();
     }
 };
 
