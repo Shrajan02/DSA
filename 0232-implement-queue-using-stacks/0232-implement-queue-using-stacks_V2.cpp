@@ -1,5 +1,5 @@
 // Design using 2 stacks
-// pop operation expensive
+// push operation expensive
 class MyQueue {
 private:
     int n;
@@ -12,33 +12,28 @@ public:
     }
     
     void push(int x) {
-        s1.push(x);
+        while (!s1.empty()) {
+            s2.push(s1.top());
+            s1.pop();
+        }
+        s2.push(x);
         n++;
+
+        while (!s2.empty()) {
+            s1.push(s2.top());
+            s2.pop();
+        }
     }
     
     int pop() {
-        if (s2.empty()) {
-            while (!s1.empty()) {
-                s2.push(s1.top());
-                s1.pop();
-            }
-        }
-
-        int poppedVal = s2.top();
-        s2.pop();
+        int poppedVal = s1.top();
+        s1.pop();
         n--;
         return poppedVal;
     }
     
     int peek() {
-        if (s2.empty()) {
-            while (!s1.empty()) {
-                s2.push(s1.top());
-                s1.pop();
-            }
-        }
-        
-        return s2.top();
+        return s1.top();
     }
     
     bool empty() {
