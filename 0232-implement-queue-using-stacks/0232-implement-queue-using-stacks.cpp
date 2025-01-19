@@ -12,28 +12,33 @@ public:
     }
     
     void push(int x) {
-        while (!s1.empty()) {
-            s2.push(s1.top());
-            s1.pop();
-        }
-        s2.push(x);
+        s1.push(x);
         n++;
-
-        while (!s2.empty()) {
-            s1.push(s2.top());
-            s2.pop();
-        }
     }
     
     int pop() {
-        int poppedVal = s1.top();
-        s1.pop();
+        if (s2.empty()) {
+            while (!s1.empty()) {
+                s2.push(s1.top());
+                s1.pop();
+            }
+        }
+
+        int poppedVal = s2.top();
+        s2.pop();
         n--;
         return poppedVal;
     }
     
     int peek() {
-        return s1.top();
+        if (s2.empty()) {
+            while (!s1.empty()) {
+                s2.push(s1.top());
+                s1.pop();
+            }
+        }
+        
+        return s2.top();
     }
     
     bool empty() {
