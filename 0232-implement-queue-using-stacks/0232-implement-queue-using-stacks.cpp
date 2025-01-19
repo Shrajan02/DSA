@@ -1,5 +1,6 @@
 // Design using 2 stacks
 // pop operation expensive
+// pop/peek amortized O(1)
 class MyQueue {
 private:
     int n;
