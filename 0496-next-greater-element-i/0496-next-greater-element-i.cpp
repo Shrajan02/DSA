@@ -4,25 +4,29 @@
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        vector<int> res(n, -1); // result array
-        stack<int> st; 
-        unordered_map<int, int> hashMap;
+        int n = nums1.size(), m = nums2.size();
+        vector<int> result(n, -1); // result array
+        unordered_map<int, int> nge; // nge hashmap
+        stack<int> st;  // decreasing monotonic stack
 
-        for (int num: nums2) {
-            // pop elements from stack & update map
-            while (!st.empty() && st.top() < num) {
-                hashMap[st.top()] = num;
+        // Constructing nge hashmap for nums2
+        for (int i = m - 1; i >= 0; i--) {
+            int current = nums2[i];
+            while (!st.empty() && st.top() <= current) {
                 st.pop();
             }
-            st.push(num);
+            if (!st.empty()) {
+                nge[current] = st.top();
+            }
+            st.push(current);
         }
 
-        for (int i = 0; i < n; i++) {
-            if (hashMap[nums1[i]]) {
-                res[i] = hashMap[nums1[i]];
+        // Build result nge array for nums1
+        for (int j = 0; j < n; j++) {
+            if (nge.find(nums1[j]) != nge.end()) {
+                result[j] = nge[nums1[j]];
             }
         }
-        return res;
+        return result;
     }
 };
