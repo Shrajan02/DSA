@@ -1,17 +1,15 @@
-// Double Length Array approach
+// Using circular array property (with Stack)
+// TC: O(n)
+// SC: O(n)
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
         int n = nums.size();
-        nums.resize(2 * n);
-        for (int i = 0; i < n; i++) {
-            nums[i + n] = nums[i];
-        }
-
         vector<int> res(n, -1);
         stack<int> st;  
-        for (int i = 2*n-1; i >= 0; i--) {
-            int curr = nums[i];
+
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            int curr = nums[i % n];
             while (!st.empty() && curr >= st.top()) {
                 st.pop();
             }
