@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shrajan02/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Shrajan02/DSA/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Shrajan02/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Shrajan02/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Shrajan02/DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Shrajan02/DSA/tree/master/0410-split-array-largest-sum) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0160-intersection-of-two-linked-lists](https://github.com/Shrajan02/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Shrajan02/DSA/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/Shrajan02/DSA/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Shrajan02/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Shrajan02/DSA/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Shrajan02/DSA/tree/master/0496-next-greater-element-i) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Shrajan02/DSA/tree/master/0219-contains-duplicate-ii) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
