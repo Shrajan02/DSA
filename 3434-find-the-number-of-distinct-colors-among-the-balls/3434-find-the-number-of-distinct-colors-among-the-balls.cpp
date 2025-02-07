@@ -10,21 +10,21 @@ public:
             int ball = query[0];
             int color = query[1];
 
-            // if ball already exists, remove the color
+            // if ball already exists, update the color
             if (mpBall.find(ball) != mpBall.end()) {
                 int prevColor = mpBall[ball];
 
                 // decrease count of previous color
                 mpColor[prevColor]--;
                 if (mpColor[prevColor] == 0) {
-                    colors--; // no more distinct
+                    colors--; // color no more present
                 }
             }
 
             // if new ball
             mpBall[ball] = color;
             if (mpColor[color] == 0) {
-                colors++;  // new distinct color
+                colors++;  // new color
             }
             mpColor[color]++;
             result.push_back(colors);
