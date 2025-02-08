@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1502-construct-k-palindrome-strings](https://github.com/Shrajan02/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shrajan02/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Shrajan02/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -334,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0155-min-stack](https://github.com/Shrajan02/DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Shrajan02/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Shrajan02/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
 | ------- |
@@ -408,4 +411,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Shrajan02/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Ordered Set
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 <!---LeetCode Topics End-->
