@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Dynamic Programming
 |  |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2580-circular-sentence](https://github.com/Shrajan02/DSA/tree/master/2580-circular-sentence) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Shrajan02/DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Shrajan02/DSA/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
+| [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/Shrajan02/DSA/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Shrajan02/DSA/tree/master/3455-minimum-length-of-string-after-operations) |
 ## String Matching
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Shrajan02/DSA/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Shrajan02/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2470-removing-stars-from-a-string](https://github.com/Shrajan02/DSA/tree/master/2470-removing-stars-from-a-string) |
+| [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
 ## Enumeration
 |  |
 | ------- |
