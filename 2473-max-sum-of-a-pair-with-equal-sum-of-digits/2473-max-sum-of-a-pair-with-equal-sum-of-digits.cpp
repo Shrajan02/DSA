@@ -1,13 +1,13 @@
-// HashMap + Sorting approach
-// TC: O(n.logn) 
+// HashMap (max value) approach
+// TC: O(n) 
 // SC: O(n)
 class Solution {
 private:
-    int calculateSumOfDigits(int num) {
+    int calculateSumOfDigits(int n) {
         int sum = 0;
-        while (num > 0) {
-            sum += (num % 10);
-            num /= 10;
+        while (n > 0) {
+            sum += (n % 10);
+            n /= 10;
         }
         return sum;
     }
@@ -15,20 +15,18 @@ private:
 public:
     int maximumSum(vector<int>& nums) {
         int n = nums.size();
-        unordered_map<int, vector<int>> digiSum;  // {sum of digits -> vector of indices}
-
-        // construct hash table
-        for (int num: nums) {
-            int sum = calculateSumOfDigits(num);
-            digiSum[sum].push_back(num);
-        }
-
-        // linear scan to check for match
+        unordered_map<int, int> digiSum;  // {sum of digits -> vector of indices}
         int maxi = -1;
-        for (auto& [key, values]: digiSum) {
-            if (values.size() > 1) {
-                sort(values.rbegin(), values.rend()); // descending sort
-                maxi = max(maxi, values[0] + values[1]);
+
+        // 1-pass check
+        for (int num: nums) {
+            int key = calculateSumOfDigits(num);
+            if (digiSum.find(key) != digiSum.end()) {
+                maxi = max(maxi, digiSum[key] + num);
+                digiSum[key] = max(digiSum[key], num);  // if greater number with same sum 
+            }
+            else {
+                digiSum[key] = num;
             }
         }
         return maxi;
