@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2470-removing-stars-from-a-string](https://github.com/Shrajan02/DSA/tree/master/2470-removing-stars-from-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Shrajan02/DSA/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Shrajan02/DSA/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Shrajan02/DSA/tree/master/2470-removing-stars-from-a-string) |
 | [2580-circular-sentence](https://github.com/Shrajan02/DSA/tree/master/2580-circular-sentence) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Shrajan02/DSA/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Shrajan02/DSA/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Shrajan02/DSA/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Shrajan02/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Shrajan02/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2470-removing-stars-from-a-string](https://github.com/Shrajan02/DSA/tree/master/2470-removing-stars-from-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Shrajan02/DSA/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3447-clear-digits](https://github.com/Shrajan02/DSA/tree/master/3447-clear-digits) |
 ## Enumeration
 |  |
