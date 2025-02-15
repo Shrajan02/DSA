@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shrajan02/DSA/tree/master/2448-count-number-of-bad-pairs) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Shrajan02/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bit Manipulation
 |  |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0040-combination-sum-ii](https://github.com/Shrajan02/DSA/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Shrajan02/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Shrajan02/DSA/tree/master/0090-subsets-ii) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Shrajan02/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Design
 |  |
 | ------- |
