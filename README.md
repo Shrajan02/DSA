@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shrajan02/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Shrajan02/DSA/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shrajan02/DSA/tree/master/2448-count-number-of-bad-pairs) |
