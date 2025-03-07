@@ -1,32 +1,31 @@
-// HashMap Improved approach
-// TC: O(n^2)
-// SC: O(n^2)
+// Math approach
+// TC: O(n^2) 
+// SC: O(1)
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
-        vector<int> ans(2, 0);
+        long long total = 1LL * n * n;
+        long long sum = 0, sqrSum = 0;
 
-        // construct hash table & calculate sum of elements
-        unordered_map<int, int> hashMap;
-        int currSum = 0;
-        for (auto& row : grid) {
-            for (int val : row) {
-                // check for duplicate
-                if (hashMap.count(val)) {
-                    ans[0] = val;
-                }
-                else {
-                    hashMap[val]++;
-                    currSum += val;
-                }
+        // Calculate actual sum and squared sum from grid
+        for (auto& row: grid) {
+            for (int val: row) {
+                sum += val;
+                sqrSum += 1LL * val * val;
             }
         }
 
-        int total = n * n;
-        int expectedSum = (total * (total + 1)) / 2;  // sum of elements from 1 to n^2
-        ans[1] = expectedSum - currSum;  // missing value
+        // Calculate differences from expected sums
+        // Expected sum: n(n+1)/2, Expected square sum: n(n+1)(2n+1)/6
+        long long sumDiff = sum - total * (total + 1) / 2;
+        long long sqrDiff = sqrSum - total * (total + 1) * (2 * total + 1) / 6;
 
-        return ans;
+        // Using math: If x is repeated and y is missing
+        // sumDiff = x - y, sqrDiff = x² - y²
+        int repeat = (sqrDiff / sumDiff + sumDiff) / 2;
+        int missing = (sqrDiff / sumDiff - sumDiff) / 2;
+
+        return {repeat, missing};
     }
 };
