@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Shrajan02/DSA/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3483-alternating-groups-ii](https://github.com/Shrajan02/DSA/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Two Pointers
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Shrajan02/DSA/tree/master/0219-contains-duplicate-ii) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
+| [3483-alternating-groups-ii](https://github.com/Shrajan02/DSA/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
 |  |
