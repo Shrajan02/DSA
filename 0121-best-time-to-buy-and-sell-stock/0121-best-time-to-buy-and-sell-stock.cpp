@@ -1,12 +1,16 @@
+// Kadane's Algorithm (DP approach)
+// TC: O(n)
+// SC: O(1)
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int best = 0, mini = INT_MAX;
         int n = prices.size();
-        for (int i = 0; i < n; i++) {
-            mini = min(mini, prices[i]);
-            best = max(best, prices[i] - mini);
+        int minPrice = prices[0];
+        int maxProfit = 0;
+        for (int i = 1; i < n; i++) {
+            minPrice = min(prices[i], minPrice);
+            maxProfit = max(prices[i] - minPrice, maxProfit);
         }
-        return best;
+        return maxProfit;
     }
 };
