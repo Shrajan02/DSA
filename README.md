@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Shrajan02/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/Shrajan02/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Shrajan02/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2665-minimum-time-to-repair-cars](https://github.com/Shrajan02/DSA/tree/master/2665-minimum-time-to-repair-cars) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Shrajan02/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Shrajan02/DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Shrajan02/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2665-minimum-time-to-repair-cars](https://github.com/Shrajan02/DSA/tree/master/2665-minimum-time-to-repair-cars) |
 ## Divide and Conquer
 |  |
 | ------- |
