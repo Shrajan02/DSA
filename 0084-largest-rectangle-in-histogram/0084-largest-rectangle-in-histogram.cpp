@@ -6,25 +6,25 @@ public:
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
         int maxArea = 0;
-        stack<pair<int, int>> stack;  // (index, height)
+        stack<pair<int, int>> st;  // (index, height)
 
         for (int i = 0; i < n; i++) {
             int start = i;
-            while (!stack.empty() && stack.top().second > heights[i]) {
-                pair<int, int> top = stack.top();
+            while (!st.empty() && st.top().second > heights[i]) {
+                pair<int, int> top = st.top();
                 int index = top.first, height = top.second;
                 maxArea = max(height * (i - index), maxArea);
                 start = index;
-                stack.pop();
+                st.pop();
             }
-            stack.push({start, heights[i]});
+            st.push({start, heights[i]});
         }
 
         // remaining bars
-        while (!stack.empty()) {
-            int index = stack.top().first, height = stack.top().second;
+        while (!st.empty()) {
+            int index = st.top().first, height = st.top().second;
             maxArea = max(maxArea, height * (int)(n - index));
-            stack.pop();
+            st.pop();
         }
         return maxArea;
     }
