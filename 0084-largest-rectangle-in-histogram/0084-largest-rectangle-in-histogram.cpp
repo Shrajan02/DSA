@@ -4,26 +4,26 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size();
         int maxArea = 0;
-        stack<pair<int, int>> stack; // (index, height)
+        stack<pair<int, int>> stack;  // (index, height)
 
-        for (int i = 0; i < heights.size(); i++) {
+        for (int i = 0; i < n; i++) {
             int start = i;
             while (!stack.empty() && stack.top().second > heights[i]) {
                 pair<int, int> top = stack.top();
-                int index = top.first;
-                int height = top.second;
-                maxArea = max(maxArea, height * (i - index));
+                int index = top.first, height = top.second;
+                maxArea = max(height * (i - index), maxArea);
                 start = index;
                 stack.pop();
             }
-            stack.push({ start, heights[i] });
+            stack.push({start, heights[i]});
         }
 
+        // remaining bars
         while (!stack.empty()) {
-            int index = stack.top().first;
-            int height = stack.top().second;
-            maxArea = max(maxArea, height * (int)(heights.size() - index));
+            int index = stack.top().first, height = stack.top().second;
+            maxArea = max(maxArea, height * (int)(n - index));
             stack.pop();
         }
         return maxArea;
