@@ -1,21 +1,24 @@
+// Hash set approach
+// TC: O(n)
+// SC: O(n)
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        int N = nums.size();
-        if (N == 0) return 0;
-        sort (nums.begin(), nums.end());
-        
-        int start = INT_MIN, maxi = 1, len = 0;
-        for (int i = 0; i < N; i++) {
-            if (nums[i] - 1 == start) 
-                len++;
-            else if (nums[i] - 0 == start)
-                continue;
-            else
-                len = 1; 
-            start = nums[i];
-            maxi = max(maxi, len);
+        int n = nums.size();
+        if (n == 0) return 0;  // edge case
+
+        unordered_set<int> hashSet(nums.begin(), nums.end());
+        int maxLen = 1;
+        for (int num: hashSet) {
+            // check if current number is start of a consecutive sequence
+            if (hashSet.find(num - 1) == hashSet.end()) {
+                int currLen = 1;  // reset the counter
+                while (hashSet.find(num + currLen) != hashSet.end()) {
+                    currLen++;
+                }
+                maxLen = max(currLen, maxLen);
+            } 
         }
-        return maxi;
+        return maxLen;
     }
 };
