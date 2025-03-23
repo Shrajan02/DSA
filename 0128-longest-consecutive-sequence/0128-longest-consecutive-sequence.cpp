@@ -9,7 +9,7 @@ public:
 
         unordered_set<int> hashSet(nums.begin(), nums.end());
         int maxLen = 1;
-        for (int num: hashSet) {
+        for (auto num: hashSet) {
             // check if current number is start of a consecutive sequence
             if (hashSet.find(num - 1) == hashSet.end()) {
                 int currLen = 1;  // reset the counter
