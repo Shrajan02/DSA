@@ -1,21 +1,42 @@
-// Sliding Window approach
-// TC: O(n)
+// Sorting + Binary Search approach
+// TC: O(n * log(n))
 // SC: O(1)
 class Solution {
 public:
-    int minSubArrayLen(int target, vector<int>& nums) {
+    bool windowfind(int size, vector<int>& nums, int target) {
         int n = nums.size();
-        int sum = 0, minLen = INT_MAX;
-        int left = 0;
-        for (int right = 0; right < n; right++) {
-            sum += nums[right];
-            // dynamic window
-            while (sum >= target) {
-                minLen = min(right - left + 1, minLen);
-                sum -= nums[left];
-                left++;
+        int i = 0, j = 0;
+        int sum = 0, maxLen = INT_MIN;
+      
+        while (j < n) {
+            sum += nums[j];
+            if (j - i + 1 == size) {
+                maxLen = max(sum, maxLen);
+                sum -= nums[i];
+                i++;
             }
+            j++;
         }
-        return (minLen == INT_MAX) ? 0 : minLen;
+        if (maxLen >= target) {
+            return true;
+        }   
+        return false;
+    }
+
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int low = 1, high = nums.size();
+        int minLen = 0;
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+            if (windowfind(mid, nums, target)) {
+                high = mid - 1;
+                minLen = mid;
+            } 
+            else {
+                low = mid + 1;
+            }
+                
+        }
+        return minLen;
     }
 };
