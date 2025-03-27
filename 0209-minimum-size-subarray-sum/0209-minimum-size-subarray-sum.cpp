@@ -3,21 +3,21 @@
 // SC: O(1)
 class Solution {
 public:
-    bool windowfind(int size, vector<int>& nums, int target) {
+    bool windowFind(int size, vector<int>& nums, int target) {
         int n = nums.size();
         int i = 0, j = 0;
-        int sum = 0, maxLen = INT_MIN;
+        int sum = 0, maxi = INT_MIN;
       
         while (j < n) {
             sum += nums[j];
             if (j - i + 1 == size) {
-                maxLen = max(sum, maxLen);
+                maxi = max(sum, maxi);
                 sum -= nums[i];
                 i++;
             }
             j++;
         }
-        if (maxLen >= target) {
+        if (maxi >= target) {
             return true;
         }   
         return false;
@@ -28,7 +28,8 @@ public:
         int minLen = 0;
         while (low <= high) {
             int mid = low + ((high - low) >> 1);
-            if (windowfind(mid, nums, target)) {
+            bool possible = windowFind(mid, nums, target);
+            if (possible) {
                 high = mid - 1;
                 minLen = mid;
             } 
