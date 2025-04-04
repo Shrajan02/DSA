@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Shrajan02/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Shrajan02/DSA/tree/master/2792-neighboring-bitwise-xor) |
+| [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Shrajan02/DSA/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
