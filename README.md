@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/Shrajan02/DSA/tree/master/2058-concatenation-of-array) |
 | [2107-find-unique-binary-string](https://github.com/Shrajan02/DSA/tree/master/2107-find-unique-binary-string) |
+| [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
 | [2227-sum-of-subarray-ranges](https://github.com/Shrajan02/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Shrajan02/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shrajan02/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Shrajan02/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/Shrajan02/DSA/tree/master/2107-find-unique-binary-string) |
+| [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Shrajan02/DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shrajan02/DSA/tree/master/2448-count-number-of-bad-pairs) |
@@ -453,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Enumeration
 |  |
 | ------- |
+| [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
 ## Trie
 |  |
