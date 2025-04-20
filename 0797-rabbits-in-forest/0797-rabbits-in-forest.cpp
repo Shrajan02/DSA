@@ -1,4 +1,4 @@
-// HashMap + Greedy approach
+// Hash Table + Greedy approach
 // TC: O(n)
 // SC: O(n)
 class Solution {
