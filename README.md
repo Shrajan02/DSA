@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Shrajan02/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Shrajan02/DSA/tree/master/2792-neighboring-bitwise-xor) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Shrajan02/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Shrajan02/DSA/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Shrajan02/DSA/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Shrajan02/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Shrajan02/DSA/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Shrajan02/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Shrajan02/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/Shrajan02/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3483-alternating-groups-ii](https://github.com/Shrajan02/DSA/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
