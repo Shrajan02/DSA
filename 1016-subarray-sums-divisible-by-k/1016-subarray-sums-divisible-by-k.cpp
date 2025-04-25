@@ -22,9 +22,7 @@ public:
         modCount[0] = 1;  // base case
         for (int i = 0; i < n; i++) {
             int mod = ((prefix[i] % k) + k) % k; // handle negative mods
-            if (modCount.find(mod) != modCount.end()) {
-                count += modCount[mod]; // found matching mod
-            }
+            count += modCount[mod]; 
             modCount[mod]++; 
         }
 
