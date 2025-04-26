@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2350-find-closest-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/2350-find-closest-number-to-zero) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shrajan02/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Shrajan02/DSA/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Shrajan02/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Shrajan02/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/Shrajan02/DSA/tree/master/2551-apply-operations-to-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Shrajan02/DSA/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Shrajan02/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Shrajan02/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Shrajan02/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Shrajan02/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3483-alternating-groups-ii](https://github.com/Shrajan02/DSA/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Shrajan02/DSA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -568,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Shrajan02/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Shrajan02/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Shrajan02/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Brainteaser
 |  |
 | ------- |
@@ -576,4 +579,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Shrajan02/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
