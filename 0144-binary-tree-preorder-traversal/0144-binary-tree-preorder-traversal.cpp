@@ -9,9 +9,9 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// Recursive approach
+// Recursive DFS approach
 // TC: O(n)
-// SC: O(1)
+// SC: O(n)
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
