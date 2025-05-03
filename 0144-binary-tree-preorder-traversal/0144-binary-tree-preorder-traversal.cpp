@@ -9,31 +9,24 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// Iterative DFS approach
+// Recursive approach
 // TC: O(n)
-// SC: O(n)
+// SC: O(1)
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> preOrder;
-        if (!root) return preOrder;  // edge case
-
-        // root -> left -> right
-        stack<TreeNode*> st;
-        st.push(root); 
-
-        while (!st.empty()) {
-            TreeNode* node = st.top();
-            st.pop();
-            
-            preOrder.push_back(node->val);     // root
-            if (node->right) {
-                st.push(node->right);          // right
-            }
-            if (node->left) {
-                st.push(node->left);           // left
-            }
-        } 
+        dfs(root, preOrder);
         return preOrder;
+    }
+
+private:
+    void dfs(TreeNode* node, vector<int>& preOrder) {
+        if (!node) {
+            return;
+        }
+        preOrder.push_back(node->val);  // visit root
+        dfs(node->left, preOrder);      // traverse left
+        dfs(node->right, preOrder);     // traverse right
     }
 };
