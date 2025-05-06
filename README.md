@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Shrajan02/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Shrajan02/DSA/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
+| [2048-build-array-from-permutation](https://github.com/Shrajan02/DSA/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Shrajan02/DSA/tree/master/2058-concatenation-of-array) |
 | [2107-find-unique-binary-string](https://github.com/Shrajan02/DSA/tree/master/2107-find-unique-binary-string) |
 | [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0682-baseball-game](https://github.com/Shrajan02/DSA/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Shrajan02/DSA/tree/master/0735-asteroid-collision) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Shrajan02/DSA/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2048-build-array-from-permutation](https://github.com/Shrajan02/DSA/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Shrajan02/DSA/tree/master/2058-concatenation-of-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Shrajan02/DSA/tree/master/2265-partition-array-according-to-given-pivot) |
