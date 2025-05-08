@@ -414,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0595-big-countries](https://github.com/Shrajan02/DSA/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/Shrajan02/DSA/tree/master/0620-not-boring-movies) |
 | [1161-project-employees-i](https://github.com/Shrajan02/DSA/tree/master/1161-project-employees-i) |
+| [1245-user-activity-for-the-past-30-days-i](https://github.com/Shrajan02/DSA/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/Shrajan02/DSA/tree/master/1258-article-views-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/Shrajan02/DSA/tree/master/1292-immediate-food-delivery-ii) |
 | [1338-queries-quality-and-percentage](https://github.com/Shrajan02/DSA/tree/master/1338-queries-quality-and-percentage) |
