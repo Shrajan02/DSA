@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1034-subarrays-with-k-different-integers](https://github.com/Shrajan02/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Shrajan02/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1063-best-sightseeing-pair](https://github.com/Shrajan02/DSA/tree/master/1063-best-sightseeing-pair) |
+| [1293-three-consecutive-odds](https://github.com/Shrajan02/DSA/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shrajan02/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/Shrajan02/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Shrajan02/DSA/tree/master/1370-count-number-of-nice-subarrays) |
