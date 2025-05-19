@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2649-count-total-number-of-colored-cells](https://github.com/Shrajan02/DSA/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Shrajan02/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
+| [3321-type-of-triangle](https://github.com/Shrajan02/DSA/tree/master/3321-type-of-triangle) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Shrajan02/DSA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bit Manipulation
 |  |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Shrajan02/DSA/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
+| [3321-type-of-triangle](https://github.com/Shrajan02/DSA/tree/master/3321-type-of-triangle) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Shrajan02/DSA/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3430-count-days-without-meetings](https://github.com/Shrajan02/DSA/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Shrajan02/DSA/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Shrajan02/DSA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Shrajan02/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Shrajan02/DSA/tree/master/3291-find-if-array-can-be-sorted) |
+| [3321-type-of-triangle](https://github.com/Shrajan02/DSA/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/Shrajan02/DSA/tree/master/3430-count-days-without-meetings) |
 ## Database
 |  |
