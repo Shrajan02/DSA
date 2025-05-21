@@ -1,7 +1,9 @@
+// Constant-space Marker Approach
+// TC: O(m * n)
+// SC: O(1)
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        // Constant-space Marker Approach
         int col0 = 1;
         int m = matrix.size(), n = matrix[0].size();
 
@@ -51,5 +53,3 @@ public:
         }
     }
 };
-
-
