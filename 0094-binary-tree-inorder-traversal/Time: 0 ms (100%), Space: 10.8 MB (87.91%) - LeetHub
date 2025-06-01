@@ -20,12 +20,16 @@ public:
         TreeNode* curr = root;
         while (curr || !st.empty()) {
             while (curr) {
-                st.push(curr);
+                st.push(curr);      // go as left as possible
                 curr = curr->left;
             }
+
+            // process the leftmost node
             curr = st.top();
             st.pop();
             inOrder.push_back(curr->val);
+
+            // go right
             curr = curr->right;
         }
         return inOrder;
