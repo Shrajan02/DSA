@@ -10,7 +10,7 @@
  * right(right) {}
  * };
  */
-// Iterative approach using 2 stacks
+// Reversal of Preorder approach using 1 stack
 // TC: O(n)
 // SC: O(n)
 class Solution {
@@ -19,32 +19,26 @@ public:
         vector<int> postOrder;
         if (!root) return postOrder;
 
-        // st1: normal traversal, st2: reverse storing
-        stack<TreeNode*> st1, st2;
-        st1.push(root);
+        stack<TreeNode*> st;
+        st.push(root);
 
         // stack root first & store it first
         // then stack left and next right 
         // store right first and next left
-        while (!st1.empty()) {
-            TreeNode* curr = st1.top();
-            st1.pop();
-            st2.push(curr);
+        // root -> right -> left (reverse storing)
+        while (!st.empty()) {
+            TreeNode* curr = st.top();
+            st.pop();
+            postOrder.push_back(curr->val);
 
             if (curr->left) {
-                st1.push(curr->left);
+                st.push(curr->left);
             }
             if (curr->right) {
-                st1.push(curr->right);
+                st.push(curr->right);
             }
         }
-
-        // root -> right -> left (reverse storing)
-        while (!st2.empty()) {
-            TreeNode* node = st2.top();
-            st2.pop();
-            postOrder.push_back(node->val);
-        }
+        reverse(postOrder.begin(), postOrder.end());
 
         return postOrder;
     }
