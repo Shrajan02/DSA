@@ -11,7 +11,7 @@
  */
 // BFS approach
 // TC: O(n)
-// SC: O(h)
+// SC: O(n)
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
