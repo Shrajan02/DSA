@@ -9,16 +9,42 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// Recursive (DFS) Preorder traversal approach
+// BFS approach
 // TC: O(n)
 // SC: O(h)
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        if (!p && !q) return true;  // both trees NULL
-        if (!p || !q) return false; // only one tree NULL
-        if (p->val != q->val) return false;  // both node values different
+        if (!p && !q) return true;
+        if (!p || !q) return false;
 
-        return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
+        queue<TreeNode*> q1, q2;
+        q1.push(p);
+        q2.push(q);
+
+        while (!q1.empty() && !q2.empty()) {
+            TreeNode* node1 = q1.front();
+            TreeNode* node2 = q2.front();
+            q1.pop();
+            q2.pop();
+
+            // both NULL means identical 
+            if (!node1 && !node2) {
+                continue;
+            }
+            // any 1 NULL or different values mean non-identical
+            if (!node1 || !node2 || node1->val != node2->val) {
+                return false;
+            }
+
+            // add left & right subtrees
+            q1.push(node1->left);
+            q1.push(node1->right);
+            
+            q2.push(node2->left);
+            q2.push(node2->right);
+        }  
+
+        return true;
     }
 };
