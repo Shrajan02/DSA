@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shrajan02/DSA/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Shrajan02/DSA/tree/master/2649-count-total-number-of-colored-cells) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Shrajan02/DSA/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Shrajan02/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Shrajan02/DSA/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
@@ -460,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Shrajan02/DSA/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Shrajan02/DSA/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Shrajan02/DSA/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Shrajan02/DSA/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Sliding Window
 |  |
