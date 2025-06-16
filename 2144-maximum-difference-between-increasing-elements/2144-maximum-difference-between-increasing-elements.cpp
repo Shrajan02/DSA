@@ -9,7 +9,8 @@ public:
         int maxDiff = -1, minVal = nums[0];
         
         for (int i = 1; i < n; i++) {
-            maxDiff = max(nums[i] > minVal ? nums[i] - minVal : maxDiff, maxDiff);
+            // condition: nums[i] < nums[j]
+            maxDiff = max((nums[i] > minVal) ? nums[i] - minVal : maxDiff, maxDiff);
             minVal = min(nums[i], minVal);
         }
 
