@@ -1,6 +1,3 @@
-// DFS + Hash Table approach
-// TC: O(nlogn)
-// SC: O(n)
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -12,6 +9,9 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// DFS + Hash Table approach
+// TC: O(nlogn)
+// SC: O(n)
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
