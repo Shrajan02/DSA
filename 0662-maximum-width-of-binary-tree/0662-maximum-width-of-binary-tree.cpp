@@ -28,17 +28,17 @@ public:
 
             ll n = q.size();
             while (n--) {
-                TreeNode* node = q.front().first;
-                ll index = q.front().second - first;  // normalization (no overflow)
+                auto [node, index] = q.front();
+                int relativeIndex = index - first;   // normalization with minimum (no overflow)
                 q.pop();
 
                 // if parent's index is n,
                 // left child -> 2n, right child -> 2n + 1
                 if (node->left) {
-                    q.push({node->left, 2 * index});
+                    q.push({node->left, 2 * relativeIndex});
                 }
                 if (node->right) {
-                    q.push({node->right, 2 * index + 1});
+                    q.push({node->right, 2 * relativeIndex + 1});
                 }
             }
         }
