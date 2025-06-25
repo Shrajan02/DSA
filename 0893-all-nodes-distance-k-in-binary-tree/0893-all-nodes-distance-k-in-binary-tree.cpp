@@ -46,7 +46,8 @@ public:
                     visited.insert(node->right);
                 }
                 // parent
-                if (parent_map.count(node) && !visited.count(parent_map[node])) {
+                if (parent_map.count(node) &&
+                    !visited.count(parent_map[node])) {
                     q.push(parent_map[node]);
                     visited.insert(parent_map[node]);
                 }
@@ -59,6 +60,7 @@ public:
             res.push_back(q.front()->val);
             q.pop();
         }
+
         return res;
     }
 
