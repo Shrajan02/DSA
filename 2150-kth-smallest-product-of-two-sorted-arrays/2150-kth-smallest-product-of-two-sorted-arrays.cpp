@@ -12,6 +12,7 @@ private:
         // nums1[i] * BS on nums2[j]
         for (int i = 0; i < n; i++) {
             // product will be negative & right side contains smaller products & left side contains larger products
+            // so BS right-to-left
             if (nums1[i] < 0) {
                 int left = 0, right = m - 1;
                 int firstValidIndex = m;    // init to right invalid bound
@@ -29,7 +30,7 @@ private:
                 }
                 productCount += (m - firstValidIndex);   // {-5, -15, -20, -30}
             } 
-
+            // BS left-to-right
             else {
                 int left = 0, right = m - 1;
                 int lastValidIndex = -1;   // init to left invalid bound
