@@ -11,6 +11,7 @@ public:
         }
 
         // {1:1, 2:3, 3:2, 5:1, 7:1}
+        // check all possible (num, num + 1)
         for (auto& [num, cnt]: freq) {
             if (freq.count(num + 1)) {
                 maxLength = max(cnt + freq[num + 1], maxLength);  // [min count + max count]
