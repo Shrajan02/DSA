@@ -9,21 +9,10 @@ public:
         size_t n = word.length();
         int maxStrings = 1;
 
-        int consecutive = 1;
-        for (int i = 1; i < n; i++) {
-            char key = word[i], prevKey = word[i - 1];
-            if (key != prevKey) {
-                if (consecutive > 1) {
-                    maxStrings += (consecutive - 1);  // add (k-1) for k consecutive same chars
-                }
-                consecutive = 1;
-            } 
-            else {
-                consecutive++;
+        for (int i = 0; i < n - 1; i++) {
+            if (word[i] == word[i + 1]) {
+                maxStrings++;
             }
-        }
-        if (consecutive > 1) {
-            maxStrings += (consecutive - 1);
         }
 
         return maxStrings;
