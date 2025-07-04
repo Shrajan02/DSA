@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0040-combination-sum-ii](https://github.com/Shrajan02/DSA/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Shrajan02/DSA/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/Shrajan02/DSA/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/Shrajan02/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Shrajan02/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Shrajan02/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Shrajan02/DSA/tree/master/0056-merge-intervals) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0012-integer-to-roman](https://github.com/Shrajan02/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Shrajan02/DSA/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Shrajan02/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Shrajan02/DSA/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Shrajan02/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Shrajan02/DSA/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Shrajan02/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0020-valid-parentheses](https://github.com/Shrajan02/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Shrajan02/DSA/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/Shrajan02/DSA/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/Shrajan02/DSA/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Shrajan02/DSA/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Shrajan02/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Shrajan02/DSA/tree/master/0205-isomorphic-strings) |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shrajan02/DSA/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/Shrajan02/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Shrajan02/DSA/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/Shrajan02/DSA/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/Shrajan02/DSA/tree/master/0217-contains-duplicate) |
