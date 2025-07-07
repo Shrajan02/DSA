@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Shrajan02/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Shrajan02/DSA/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Shrajan02/DSA/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Shrajan02/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Shrajan02/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Shrajan02/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Shrajan02/DSA/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -455,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1019-squares-of-a-sorted-array](https://github.com/Shrajan02/DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Shrajan02/DSA/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Shrajan02/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Shrajan02/DSA/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Shrajan02/DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Shrajan02/DSA/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0402-remove-k-digits](https://github.com/Shrajan02/DSA/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Shrajan02/DSA/tree/master/0410-split-array-largest-sum) |
 | [0797-rabbits-in-forest](https://github.com/Shrajan02/DSA/tree/master/0797-rabbits-in-forest) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Shrajan02/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/Shrajan02/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Shrajan02/DSA/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2032-largest-odd-number-in-string](https://github.com/Shrajan02/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -573,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Shrajan02/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Shrajan02/DSA/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Shrajan02/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
