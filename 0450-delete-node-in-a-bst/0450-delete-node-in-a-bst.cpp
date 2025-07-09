@@ -46,7 +46,7 @@ public:
             while (temp->right) {
                 temp = temp->right;
             }
-            root->val = temp->val;  // swap with Case 1 or Case 2 node
+            root->val = temp->val;  // swap to make it a Case 1 or Case 2 node
 
             // go left to find swapped node
             root->left = deleteNode(root->left, temp->val);
