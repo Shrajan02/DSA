@@ -46,7 +46,9 @@ public:
             while (temp->right) {
                 temp = temp->right;
             }
-            root->val = temp->val;  // swap to make it a Case 1 or Case 2 node
+            // swap to make it a Case 1 or Case 2 node
+            // this is done to preserve BST structure rather than just deleting
+            root->val = temp->val;   
 
             // go left to find swapped node
             root->left = deleteNode(root->left, temp->val);
