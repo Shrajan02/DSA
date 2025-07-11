@@ -10,25 +10,58 @@
  * };
  */
 
-// Inorder traversal + 2-pointers approach
+// Dual Iterators approach (Space-optimized)
 // TC: O(n)
-// SC: O(n) 
+// SC: O(h)
 class Solution {
+private:
+    class BSTDualIterator { 
+    private:
+        stack<TreeNode*> st;
+        bool reverse;
+
+        // go all left or all right
+        void pushAll(TreeNode* node) {
+            while (node) {
+                st.push(node);
+                node = reverse ? node->right : node->left;
+            }
+        }
+    
+    public: 
+        // constructor pre-fills stack
+        BSTDualIterator(TreeNode* root, bool isReverse) {
+            reverse = isReverse;
+            pushAll(root);
+        }
+
+        int next() {
+            TreeNode* node = st.top();
+            st.pop();
+            if (!reverse) {
+                pushAll(node->right);  //  visited left, processed node and now right
+            }
+            else {
+                pushAll(node->left);   
+            }
+            return node->val;
+        }
+    };
+
 public:
     bool findTarget(TreeNode* root, int k) {
-        vector<int> nodes;
-        dfs(root, nodes);  // construct sorted array
+        BSTDualIterator low(root, false);   // in-order iterator (smallest first)
+        BSTDualIterator high(root, true);   // reverse in-order iterator (largest first)
 
-        // using 2-pointers
-        // [2,3,4,5,6,7] ; k = 10
-        int i = 0, j = nodes.size() - 1;
+        // applying 2-pointers
+        int i = low.next(), j = high.next();
         while (i < j) {
-            int sum = nodes[i] + nodes[j];
+            int sum = i + j;
             if (sum < k) {
-                i++;
+                i = low.next();
             }
             else if (sum > k) {
-                j--;
+                j = high.next();
             }
             else {
                 return true;
@@ -36,15 +69,5 @@ public:
         }
 
         return false;
-    }
-
-private:
-    void dfs(TreeNode* node, vector<int>& nodes) {
-        if (!node) return;
-
-        // inorder traversal
-        dfs(node->left, nodes);
-        nodes.push_back(node->val);
-        dfs(node->right, nodes);
     }
 };
