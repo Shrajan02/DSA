@@ -27,7 +27,7 @@ public:
                 currSum -= freeTimes[start];
                 start++;
             }
-            maxFreeTime = max(currSum, maxFreeTime);  // update for all valid windows (≤ k shifts), as fewer reschedulings may give max
+            maxFreeTime = std::max(currSum, maxFreeTime);  // update for all valid windows (≤ k shifts), as fewer reschedulings may give max
         }
 
         return maxFreeTime;
