@@ -1,58 +1,60 @@
-class Solution 
-{
+// Sliding Window approach
+// TC: O(n)
+// SC: O(1)
+class Solution {
+private:
+    int getState(int count_a, int count_b) {
+        int parity_a = count_a % 2; // odd parity will be 1
+        int parity_b = count_b % 2; // even parity will be 0
+
+        if (parity_a == 0 && parity_b == 0) return 0; // even-even (00)
+        if (parity_a == 0 && parity_b == 1) return 1; // even-odd (01)
+        if (parity_a == 1 && parity_b == 0) return 2; // odd-even (10)
+        return 3;  // odd-odd (11)
+    }
+
 public:
-    int maxDifference(string s, int k) 
-    {
+    int maxDifference(string s, int k) {
         int n = s.length();
-        int maxDiff = INT_MIN;
+        int result = INT_MIN;
 
-        // Step 1: Try all (a, b) pairs
-        for (int a = 0; a <= 4; ++a) 
-        {
-            for (int b = 0; b <= 4; b++) 
-            {
-                if (a == b)
-                {
-                    continue;
-                } 
+        // Step 1: Try all possible (a, b) pairs from '0' to '4'
+        for (int a = 0; a <= 4; a++) {
+            for (int b = 0; b <= 4; b++) {
+                if (a == b) continue; // cannot have same number with different frequency
 
-                // Step 2: Prefix counts
-                vector<int> s1(n + 1);
-                vector<int> s2(n + 1);
-                for (int i = 1; i <= n; ++i) 
-                {
-                    s1[i] = s1[i - 1] + (s[i - 1] - '0' == a);
-                    s2[i] = s2[i - 1] + (s[i - 1] - '0' == b);
-                }
+                // Step 2: stateMinPrev[state] => stores min value of (count_a - count_b) for 4 states
+                vector<int> stateMinPrev(4, INT_MAX);
+                int count_a = 0, count_b = 0; // till index 'r'
+                int prev_a = 0, prev_b = 0; // till previous index 'l'
 
-                // Step 3: Matrix for best difference at each parity
-                int g[2][2] = {{INT_MIN, INT_MIN}, {INT_MIN, INT_MIN}};
+                // Step 3: Apply Sliding Window
+                int l = -1;
+                for (int r = 0; r < n; r++) {
+                    count_a += (s[r] == ('0' + a)) ? 1 : 0;
+                    count_b += (s[r] == ('0' + b)) ? 1 : 0;
 
-                // Step 4: Sliding window
-                int j = 0;
-                for (int i = k; i <= n; ++i) 
-                {
-                    while (i - j >= k && s1[i] > s1[j] && s2[i] > s2[j]) 
-                    {
-                        int pa = s1[j] % 2;
-                        int pb = s2[j] % 2;
-                        g[pa][pb] = max(g[pa][pb], s2[j] - s1[j]);
-                        ++j;
+                    // shrink from 'l' & count checks avoid saving invalid states in stateMinPrev 
+                    while (r - l >= k && count_b - prev_b >= 2 && count_a - prev_a >= 1) {
+                        int leftState = getState(prev_a, prev_b);
+                        stateMinPrev[leftState] = std::min(prev_a - prev_b, stateMinPrev[leftState]);
+
+                        l++;
+                        prev_a += (s[l] == ('0' + a)) ? 1 : 0;
+                        prev_b += (s[l] == ('0' + b)) ? 1 : 0;
                     }
 
-                    // Step 5: Check if valid
-                    int pa = s1[i] % 2;
-                    int pb = s2[i] % 2;
-                    int need = g[1 - pa][pb];
-                    
-                    if (need != INT_MIN) 
-                    {
-                        maxDiff = max(maxDiff, (s1[i] - s2[i]) + need);
+                    int rightState = getState(count_a, count_b);
+                    int minLeftState = rightState ^ 2;  // XOR 2 (odd-even state) flips parity of 'a' to find best previous state to maximise difference
+                    int minLeftDiffVal = stateMinPrev[minLeftState];
+
+                    if (minLeftDiffVal != INT_MAX) {
+                        result = max((count_a - count_b) - minLeftDiffVal, result);
                     }
                 }
             }
         }
 
-        return (maxDiff == INT_MIN ? -1 : maxDiff);
+        return result;
     }
 };
