@@ -17,7 +17,8 @@ class Solution {
 private:
     TreeNode* constructBST(vector<int>& preorder, int& index, int low, int high) {
         // base case
-        if (index >= preorder.size()) {
+        int n = preorder.size();
+        if (index >= n) {
             return NULL;
         }
         // if value out of bounds, stop
