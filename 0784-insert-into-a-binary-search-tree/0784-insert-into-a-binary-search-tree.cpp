@@ -9,14 +9,15 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
- 
+
 // Iterative approach
 // TC: O(h)
 // SC: O(1)
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if (!root) return new TreeNode(val);
+        TreeNode* node = new TreeNode(val);
+        if (!root) return node;
 
         TreeNode* curr = root;
         TreeNode* prev = NULL;
@@ -24,13 +25,7 @@ public:
             prev = curr;
             curr = (val < curr->val) ? curr->left : curr->right;
         }
-
-        if (prev->val > val) {
-            prev->left = new TreeNode(val);
-        }
-        else {
-            prev->right = new TreeNode(val);
-        }
+        prev->val > val ? (prev->left = node) : (prev->right = node);
 
         return root;
     }
