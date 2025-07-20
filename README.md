@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1063-best-sightseeing-pair](https://github.com/Shrajan02/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1293-three-consecutive-odds](https://github.com/Shrajan02/DSA/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shrajan02/DSA/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Shrajan02/DSA/tree/master/1364-tuple-with-same-product) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Shrajan02/DSA/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Shrajan02/DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0812-rotate-string](https://github.com/Shrajan02/DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Shrajan02/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Shrajan02/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Shrajan02/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/Shrajan02/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Shrajan02/DSA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -590,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Shrajan02/DSA/tree/master/0014-longest-common-prefix) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -755,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Shrajan02/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
