@@ -10,7 +10,7 @@
  * };
  */
 
-// BFS using Deque (No reversal) approach
+// BFS using Queue + Stack approach
 // TC: O(n)
 // SC: O(n)
 class Solution {
@@ -21,7 +21,9 @@ public:
         std::queue<TreeNode*> q;
         q.push(root);
 
-        std::deque<vector<int>> dq;  // store levels in reverse order
+        // use queue (FIFO) to traverse nodes in a specific level
+        // to reverse the order later (LIFO), use stack
+        stack<vector<int>> st;
         while (!q.empty()) {
             int n = q.size();
             vector<int> level;
@@ -30,16 +32,23 @@ public:
                 TreeNode* node = q.front();
                 q.pop();
                 level.push_back(node->val);
+                
                 if (node->left) {
                     q.push(node->left);
                 }
                 if (node->right) {
                     q.push(node->right);
                 }
-            }
-            dq.push_front(level);   // inserts front at O(1)
+            } 
+            st.push(level);
         }
-        
-        return (vector<vector<int>>(dq.begin(), dq.end()));
+
+        vector<vector<int>> bfs;
+        while (!st.empty()) {
+            bfs.push_back(st.top());
+            st.pop();
+        }
+    
+        return bfs;
     }
 };
