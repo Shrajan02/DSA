@@ -3,5 +3,5 @@ SELECT name FROM Employee
 WHERE id IN (
     SELECT managerId FROM Employee
     GROUP BY managerId
-    HAVING COUNT(DISTINCT id) >= 5
+    HAVING COUNT(managerId) >= 5
 );
