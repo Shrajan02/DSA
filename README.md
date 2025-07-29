@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0090-subsets-ii](https://github.com/Shrajan02/DSA/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shrajan02/DSA/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Shrajan02/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Shrajan02/DSA/tree/master/2308-divide-array-into-equal-pairs) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Shrajan02/DSA/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shrajan02/DSA/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Shrajan02/DSA/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/Shrajan02/DSA/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Shrajan02/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Shrajan02/DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/Shrajan02/DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2232-adding-spaces-to-a-string](https://github.com/Shrajan02/DSA/tree/master/2232-adding-spaces-to-a-string) |
@@ -591,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [1656-count-good-triplets](https://github.com/Shrajan02/DSA/tree/master/1656-count-good-triplets) |
 | [2122-count-special-quadruplets](https://github.com/Shrajan02/DSA/tree/master/2122-count-special-quadruplets) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Shrajan02/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Shrajan02/DSA/tree/master/2215-finding-3-digit-even-numbers) |
 | [3221-find-the-peaks](https://github.com/Shrajan02/DSA/tree/master/3221-find-the-peaks) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Shrajan02/DSA/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -685,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0078-subsets](https://github.com/Shrajan02/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Shrajan02/DSA/tree/master/0090-subsets-ii) |
 | [2107-find-unique-binary-string](https://github.com/Shrajan02/DSA/tree/master/2107-find-unique-binary-string) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Shrajan02/DSA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Shrajan02/DSA/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Design
 |  |
