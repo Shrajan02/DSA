@@ -1,5 +1,5 @@
-// Sorting + HashMap approach
-// TC: O(n*logn + n*groupSize)
+// HashMap approach
+// TC: O(n*groupSize)
 // SC: O(n)
 class Solution {
 public:
@@ -8,8 +8,7 @@ public:
         if (n % groupSize != 0) {
             return false;
         }
-
-        ranges::sort(hand);  
+        
         std::map<int, int> cardFreq; // {element, frequency}
         for (int card: hand) {
             cardFreq[card]++;
