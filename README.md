@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shrajan02/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/Shrajan02/DSA/tree/master/1656-count-good-triplets) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
+| [1813-maximum-erasure-value](https://github.com/Shrajan02/DSA/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Shrajan02/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Shrajan02/DSA/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Shrajan02/DSA/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1468-check-if-n-and-its-double-exist](https://github.com/Shrajan02/DSA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/Shrajan02/DSA/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Shrajan02/DSA/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1813-maximum-erasure-value](https://github.com/Shrajan02/DSA/tree/master/1813-maximum-erasure-value) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Shrajan02/DSA/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Shrajan02/DSA/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Shrajan02/DSA/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -565,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Shrajan02/DSA/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Shrajan02/DSA/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1755-defuse-the-bomb](https://github.com/Shrajan02/DSA/tree/master/1755-defuse-the-bomb) |
+| [1813-maximum-erasure-value](https://github.com/Shrajan02/DSA/tree/master/1813-maximum-erasure-value) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Shrajan02/DSA/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Shrajan02/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Shrajan02/DSA/tree/master/2856-count-complete-subarrays-in-an-array) |
