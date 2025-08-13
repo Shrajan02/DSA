@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shrajan02/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Shrajan02/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/Shrajan02/DSA/tree/master/0326-power-of-three) |
 | [0797-rabbits-in-forest](https://github.com/Shrajan02/DSA/tree/master/0797-rabbits-in-forest) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Shrajan02/DSA/tree/master/1370-count-number-of-nice-subarrays) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0206-reverse-linked-list](https://github.com/Shrajan02/DSA/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Shrajan02/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Shrajan02/DSA/tree/master/0234-palindrome-linked-list) |
+| [0326-power-of-three](https://github.com/Shrajan02/DSA/tree/master/0326-power-of-three) |
 | [2050-count-good-numbers](https://github.com/Shrajan02/DSA/tree/master/2050-count-good-numbers) |
 ## String
 |  |
