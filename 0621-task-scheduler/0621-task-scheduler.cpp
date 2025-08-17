@@ -1,33 +1,51 @@
+// Priority Queue approach
+// TC: O(T*log(k)) = O(T)
+// SC: O(k) = O(1)
+// where T = number of tasks, k = 26
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        int k = tasks.size();
-
-        std::map<char, int> mp;
-        int unique_count = 0;
-        for (char c : tasks) {
-            if (mp[c] == 0) {
-                unique_count++;
-            }
-            mp[c]++;
+        // build frequency map
+        std::vector<int> freq(26, 0);
+        for (char ch: tasks) {
+            freq[ch - 'A']++;
         }
 
-        int max_freq = 0;
-        for (auto [_, count] : mp) {
-            max_freq = std::max(max_freq, count);
-        }
-
-        int max_freq_count = 0;
-        for (auto pair : mp) {
-            if (pair.second == max_freq) {
-                max_freq_count++;
+        // push the frequencies to heap
+        std::priority_queue<int> maxH;
+        for (int count: freq) {
+            if (count > 0) {
+                maxH.push(count);
             }
         }
 
-        int cycles = max_freq - 1;
-        int res = cycles * (n + 1) + max_freq_count;
+        int time = 0;
+        while (!maxH.empty()) {
+            int cycle = n + 1;
+            std::vector<int> temp;
 
-        res = std::max(k, res);
-        return res; 
+            // execution of tasks per cycle
+            while (cycle && !maxH.empty()) {
+                int max_freq = maxH.top();
+                maxH.pop();
+                // only 1 task at a time
+                if (max_freq > 1) {
+                    temp.push_back(--max_freq); 
+                }
+                time++;
+                cycle--;
+            }
+
+            for (int count: temp) {
+                maxH.push(count);
+            }
+            
+            if (maxH.empty()) {
+                break;   // do not include idle time if all tasks are completed
+            }
+            time += cycle;  // counts idle time
+        }
+
+        return time;
     }
 };
