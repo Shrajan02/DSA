@@ -1,3 +1,6 @@
+// Backtracking approach
+// TC: O(3^n * 4^m), where n = #digits with 3 letters, m = #digits with 4 letters
+// SC: O(n)        
 class Solution {
 private:
     void generateLetters(vector<string>& result, const string& digits, string current, const unordered_map<char, string>& phoneNumber, int i) {
@@ -17,8 +20,9 @@ private:
 public:
     vector<string> letterCombinations(string digits) {
         vector<string> result;
-        if (digits.empty())
+        if (digits.empty()) {
             return result;
+        }
 
         unordered_map<char, string> phoneNumber = {
             {'2', "abc"},
