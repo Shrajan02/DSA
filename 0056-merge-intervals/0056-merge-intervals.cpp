@@ -1,23 +1,27 @@
-// Sorting approach
-// TC: O(nlogn)
+// greedy sorting approach
+// TC: O(nlogn + n)
 // SC: O(n)
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         int n = intervals.size();
-        sort(intervals.begin(), intervals.end());  // based on start time
+        std::sort(intervals.begin(), intervals.end());  // sort by start time
 
         vector<vector<int>> mergedIntervals;
         mergedIntervals.push_back(intervals[0]);
+
         for (int i = 1; i < n; i++) {
-            vector<int>& lastMerged = mergedIntervals.back();  // reference to previous interval
-            if (lastMerged[1] < intervals[i][0]) {
-                mergedIntervals.push_back(intervals[i]);
+            vector<int>& lastMergedInterval = mergedIntervals.back();
+            if (lastMergedInterval[1] >= intervals[i][0]) {
+                // merge
+                lastMergedInterval[1] = std::max(intervals[i][1], lastMergedInterval[1]);
             }
             else {
-                lastMerged[1] = max(intervals[i][1], lastMerged[1]);  // merging 
+                // simply push without merging
+                mergedIntervals.push_back(intervals[i]);
             }
         }
+
         return mergedIntervals;
     }
 };
