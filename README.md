@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0943-sum-of-subarray-minimums](https://github.com/Shrajan02/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
 | [0966-binary-subarrays-with-sum](https://github.com/Shrajan02/DSA/tree/master/0966-binary-subarrays-with-sum) |
+| [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Shrajan02/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Shrajan02/DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Shrajan02/DSA/tree/master/1034-subarrays-with-k-different-integers) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0240-search-a-2d-matrix-ii](https://github.com/Shrajan02/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/Shrajan02/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Shrajan02/DSA/tree/master/3748-sort-matrix-by-diagonals) |
@@ -896,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Shrajan02/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
