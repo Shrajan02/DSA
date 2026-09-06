@@ -836,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Shrajan02/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shrajan02/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
@@ -894,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Shrajan02/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/Shrajan02/DSA/tree/master/0542-01-matrix) |
+| [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shrajan02/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
@@ -927,6 +929,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Shrajan02/DSA/tree/master/0207-course-schedule) |
+| [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 ## Topological Sort
 |  |
 | ------- |
@@ -935,4 +938,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Shrajan02/DSA/tree/master/0207-course-schedule) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
