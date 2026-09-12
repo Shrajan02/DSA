@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Shrajan02/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/Shrajan02/DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Shrajan02/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Shrajan02/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Shrajan02/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/Shrajan02/DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
 | [2047-find-a-peak-element-ii](https://github.com/Shrajan02/DSA/tree/master/2047-find-a-peak-element-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Shrajan02/DSA/tree/master/3227-find-missing-and-repeated-values) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Shrajan02/DSA/tree/master/3748-sort-matrix-by-diagonals) |
@@ -843,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -904,6 +907,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Shrajan02/DSA/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -945,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
 ## Bidirectional Search
 |  |
 | ------- |
