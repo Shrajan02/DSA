@@ -1,7 +1,7 @@
-// DFS approach
+// DFS approach (graph coloring)
 // TC: O(V + E)
 // SC: O(V)
-// bipartite -> if you can color every node with 2 colors such that adjacent nodes have the same color
+// bipartite -> if you can color every node with 2 colors such that adjacent nodes have different colors
 // odd-length cycles are NEVER bipartite, rest all are bipartite
 class Solution {
 private:
