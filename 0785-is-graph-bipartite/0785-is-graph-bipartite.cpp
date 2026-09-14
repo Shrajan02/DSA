@@ -1,21 +1,26 @@
-// DFS approach (graph coloring)
+// BFS approach
 // TC: O(V + E)
 // SC: O(V)
-// bipartite -> if you can color every node with 2 colors such that adjacent nodes have different colors
-// odd-length cycles are NEVER bipartite, rest all are bipartite
 class Solution {
 private:
-    bool dfs(const vector<vector<int>>& graph, vector<int>& colors, int current_node, int current_color) {
+    bool bfs(const vector<vector<int>>& graph, vector<int>& colors, int current_node, int current_color) {
+        queue<int> q;
+        q.push(current_node);
         colors[current_node] = current_color;
 
-        for (int neighbor: graph[current_node]) {
-            if (colors[neighbor] == current_color) {
-                return false;
-            }
+        while (!q.empty()) {
+            int node = q.front();
+            q.pop();
 
-            int reverse_color = 1 - current_color;
-            if (colors[neighbor] == -1 && !dfs(graph, colors, neighbor, reverse_color)) {
-                return false;
+            for (int neighbor: graph[node]) {
+                if (colors[neighbor] == colors[node]) {
+                    return false;
+                }
+
+                if (colors[neighbor] == -1) {
+                    q.push(neighbor);
+                    colors[neighbor] = 1 - colors[node];
+                }
             }
         }
 
@@ -25,10 +30,10 @@ private:
 public:
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
-        vector<int> colors(n, -1);  // -1 -> no color, 0 -> one color, 1 -> other color
-        
+        vector<int> colors(n, -1);
+
         for (int v = 0; v < n; v++) {
-            if (colors[v] == -1 && !dfs(graph, colors, v, 0)) {
+            if (colors[v] == -1 && !bfs(graph, colors, v, 0)) {
                 return false;
             }
         }
