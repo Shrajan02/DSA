@@ -1,68 +1,44 @@
-// BFS approach
-// TC: O(n*m^2)
-// SC: O(n*m^2)
+// BFS approach (character replacement)
+// TC: O(n*m*26)
+// SC: O(n*m)
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        int n = wordList.size();
-
-        // edge case: when endword is not in wordlist
-        bool flag = false;
-        for (const string& word : wordList) {
-            if (endWord == word) {
-                flag = true;
-                break;
-            }
-        }
-
-        if (!flag) return 0;
-
-        // first create a map to get unique values of possible variations as keys and check it against all the words
-        // TC goes upto O(n*m*26), kinda high
-        unordered_map<string, vector<string>> patternMap;
         int m = beginWord.length();
+        queue<pair<string, int>> q;
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
 
-        // all words variations
-        for (const string& word : wordList) {
-            for (int i = 0; i < m; i++) {
-                string temp = word;
-                temp[i] = '*';
-                patternMap[temp].push_back(word);
-            }
+        // edge case: when endWord is not present in wordList    
+        if (!wordSet.count(endWord)) {
+            return 0;
         }
 
-        queue<string> neighbors;
-        neighbors.push(beginWord);
+        // run BFS
+        q.push({beginWord, 1});
+        wordSet.erase(beginWord);
 
-        unordered_set<string> visited;
-        visited.insert(beginWord);
+        while (!q.empty()) {
+            string word = q.front().first;
+            int seq = q.front().second;
+            q.pop();
 
-        int level = 0;
-        while (!neighbors.empty()) {
-            level++;
-            int currentSize = neighbors.size();
+            if (word == endWord) {
+                return seq;
+            }
 
-            for (int i = 0; i < currentSize; i++) {
-                string mappedWord = neighbors.front();
-                neighbors.pop();
+            for (int i = 0; i < m; i++) {
+                char original = word[i];
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+                    word[i] = ch;
 
-                if (mappedWord == endWord) {
-                    return level;
-                }
-
-                for (int j = 0; j < m; j++) {
-                    string pattern = mappedWord.substr(0, j) + '*' + mappedWord.substr(j + 1);
-                    
-                    if (patternMap.find(pattern) != patternMap.end()) {
-                        for (const string& neighbor : patternMap[pattern]) {
-                            if (visited.find(neighbor) == visited.end()) {
-                                visited.insert(neighbor);
-                                neighbors.push(neighbor);
-                            }
-                        }
+                    // if that word exists
+                    if (wordSet.find(word) != wordSet.end()) {
+                        q.push({word, seq + 1});
+                        wordSet.erase(word);
                     }
                 }
-            } 
+                word[i] = original;
+            }
         }
 
         return 0;
