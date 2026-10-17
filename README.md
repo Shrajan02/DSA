@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0907-koko-eating-bananas](https://github.com/Shrajan02/DSA/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/Shrajan02/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [0953-verifying-an-alien-dictionary](https://github.com/Shrajan02/DSA/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/Shrajan02/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Shrajan02/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0900-reordered-power-of-2](https://github.com/Shrajan02/DSA/tree/master/0900-reordered-power-of-2) |
 | [0950-x-of-a-kind-in-a-deck-of-cards](https://github.com/Shrajan02/DSA/tree/master/0950-x-of-a-kind-in-a-deck-of-cards) |
+| [0953-verifying-an-alien-dictionary](https://github.com/Shrajan02/DSA/tree/master/0953-verifying-an-alien-dictionary) |
 | [0966-binary-subarrays-with-sum](https://github.com/Shrajan02/DSA/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Shrajan02/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Shrajan02/DSA/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -466,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/Shrajan02/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/Shrajan02/DSA/tree/master/0812-rotate-string) |
+| [0953-verifying-an-alien-dictionary](https://github.com/Shrajan02/DSA/tree/master/0953-verifying-an-alien-dictionary) |
 | [1078-remove-outermost-parentheses](https://github.com/Shrajan02/DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Shrajan02/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Shrajan02/DSA/tree/master/1350-remove-sub-folders-from-the-filesystem) |
