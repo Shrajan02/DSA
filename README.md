@@ -281,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0410-split-array-largest-sum](https://github.com/Shrajan02/DSA/tree/master/0410-split-array-largest-sum) |
 | [0542-01-matrix](https://github.com/Shrajan02/DSA/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Shrajan02/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/Shrajan02/DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [1063-best-sightseeing-pair](https://github.com/Shrajan02/DSA/tree/master/1063-best-sightseeing-pair) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shrajan02/DSA/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -682,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/Shrajan02/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/Shrajan02/DSA/tree/master/0621-task-scheduler) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Shrajan02/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Shrajan02/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2434-design-a-number-container-system](https://github.com/Shrajan02/DSA/tree/master/2434-design-a-number-container-system) |
@@ -863,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/Shrajan02/DSA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shrajan02/DSA/tree/master/0802-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/Shrajan02/DSA/tree/master/1020-number-of-enclaves) |
@@ -929,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/Shrajan02/DSA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shrajan02/DSA/tree/master/0802-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Shrajan02/DSA/tree/master/0994-rotting-oranges) |
@@ -964,6 +968,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0207-course-schedule](https://github.com/Shrajan02/DSA/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Shrajan02/DSA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shrajan02/DSA/tree/master/0802-find-eventual-safe-states) |
 ## Topological Sort
 |  |
@@ -1007,4 +1012,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Shrajan02/DSA/tree/master/0802-find-eventual-safe-states) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shrajan02/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
