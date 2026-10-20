@@ -1,26 +1,26 @@
-// Stack approach
+// 2-pointers approach
 // TC: O(n)
-// SC: O(n)
+// SC: O(1)
 class Solution {
 public:
     int minAddToMakeValid(string s) {
-        stack<int> st;
+        int open = 0, close = 0;
 
-        for (char bracket : s) {
+        for (char bracket: s) {
             if (bracket == '(') {
-                st.push(bracket);
+                open++;
             }
             // when bracket is ')'
             else {
-                if (st.empty() || st.top() == ')') {
-                    st.push(bracket);
+                if (open == 0) {
+                    close++;
                 }
-                else if (st.top() == '(') {
-                    st.pop();
+                else {
+                    open--;
                 }
             }
         }
 
-        return st.size();
+        return (open + close);
     }
 };
