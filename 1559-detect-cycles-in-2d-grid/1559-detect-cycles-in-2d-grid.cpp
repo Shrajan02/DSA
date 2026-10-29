@@ -1,0 +1,58 @@
+// DFS Approach
+// TC: O(m*n)
+// SC: O(m*n)
+class Solution {
+private:
+    bool dfsCycle(vector<vector<char>>& grid, vector<vector<bool>>& visited, int r, int c, int pr, int pc) {
+        int m = grid.size(), n = grid[0].size();
+        
+        visited[r][c] = true;
+
+        vector<int> dr = { 0, -1, 1, 0 };
+        vector<int> dc = { -1, 0, 0, 1 };
+        for (int i = 0; i < dr.size(); i++) {
+            int neighbor_row = r + dr[i];
+            int neighbor_col = c + dc[i];
+
+            // check boundary conditions
+            if (neighbor_row < 0 || neighbor_row >= m || neighbor_col < 0 || neighbor_col >= n) {
+                continue;
+            }
+            
+            // match same value
+            if (grid[r][c] == grid[neighbor_row][neighbor_col]) {
+                // skip parent check
+                if (neighbor_row == pr && neighbor_col == pc) {
+                    continue;
+                }
+                
+                // cycle if neighbor already visited
+                if (visited[neighbor_row][neighbor_col]) {
+                    return true;
+                }
+
+                if (dfsCycle(grid, visited, neighbor_row, neighbor_col, r, c)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+public:
+    bool containsCycle(vector<vector<char>>& grid) {
+        int m = grid.size(), n = grid[0].size();
+        vector<vector<bool>> visited(m, vector<bool>(n));
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (!visited[i][j] && dfsCycle(grid, visited, i, j, -1, -1)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+};
