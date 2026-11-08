@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0594-longest-harmonious-subsequence](https://github.com/Shrajan02/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Shrajan02/DSA/tree/master/0621-task-scheduler) |
 | [0682-baseball-game](https://github.com/Shrajan02/DSA/tree/master/0682-baseball-game) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0735-asteroid-collision](https://github.com/Shrajan02/DSA/tree/master/0735-asteroid-collision) |
 | [0778-swim-in-rising-water](https://github.com/Shrajan02/DSA/tree/master/0778-swim-in-rising-water) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0594-longest-harmonious-subsequence](https://github.com/Shrajan02/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Shrajan02/DSA/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shrajan02/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0797-rabbits-in-forest](https://github.com/Shrajan02/DSA/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Shrajan02/DSA/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0402-remove-k-digits](https://github.com/Shrajan02/DSA/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/Shrajan02/DSA/tree/master/0678-valid-parenthesis-string) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/Shrajan02/DSA/tree/master/0812-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Shrajan02/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Shrajan02/DSA/tree/master/0953-verifying-an-alien-dictionary) |
@@ -536,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0451-sort-characters-by-frequency](https://github.com/Shrajan02/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/Shrajan02/DSA/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Shrajan02/DSA/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/Shrajan02/DSA/tree/master/0876-hand-of-straights) |
 | [0900-reordered-power-of-2](https://github.com/Shrajan02/DSA/tree/master/0900-reordered-power-of-2) |
 | [1019-squares-of-a-sorted-array](https://github.com/Shrajan02/DSA/tree/master/1019-squares-of-a-sorted-array) |
@@ -882,6 +886,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shrajan02/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/Shrajan02/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/Shrajan02/DSA/tree/master/0778-swim-in-rising-water) |
@@ -955,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shrajan02/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Shrajan02/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Shrajan02/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/Shrajan02/DSA/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/Shrajan02/DSA/tree/master/0778-swim-in-rising-water) |
@@ -1024,6 +1030,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0130-surrounded-regions](https://github.com/Shrajan02/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Shrajan02/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Shrajan02/DSA/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/Shrajan02/DSA/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/Shrajan02/DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Shrajan02/DSA/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Shrajan02/DSA/tree/master/0990-satisfiability-of-equality-equations) |
