@@ -40,12 +40,20 @@ public:
         // column nodes -> 10001 - 20001
         // DSU size -> 20002
         int n = stones.size();
-        parents.resize(20002);
-        ranks.resize(20002, 1);
+
+        int max_row = 0, max_col = 0;
+        for (const auto& stone : stones) {
+            max_row = max(max_row, stone[0]);
+            max_col = max(max_col, stone[1]);
+        }
+
+        int offset = max_row + 1;
+        int total_nodes = offset + max_col + 1;
+        parents.resize(total_nodes);
+        ranks.resize(total_nodes, 1);
         std::iota(parents.begin(), parents.end(), 0);
 
         // union each stone's row & column as unique indices
-        int offset = 10001;
         unordered_set<int> used;
         for (auto& coordinate: stones) {
             int r = coordinate[0];
